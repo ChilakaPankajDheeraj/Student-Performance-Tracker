@@ -1,9 +1,9 @@
 # Student Performance Tracker
 
 **Internship project:** Machine Learning  
-**Intern ID:** `[Enter your intern ID]`  
-**Full name:** `[Enter your full name]`  
-**Duration (weeks):** `[Enter the number of weeks]`  
+**Intern ID:** `CITS9471`  
+**Full name:** `Chilaka Pankaj Dheeraj`  
+**Duration (weeks):** `12 weeks`  
 **Project scope:** Clean and analyze student performance data, visualize trends, and estimate final exam scores with a supervised Machine Learning regression model.
 
 ## Overview
