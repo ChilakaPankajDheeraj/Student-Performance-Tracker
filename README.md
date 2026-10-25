@@ -140,54 +140,6 @@ Both tests should pass. If `pytest` is not found, confirm that the virtual envir
 4. Open **Predict a score**, enter the five inputs, and click **Predict score**.
 5. Open **Model details** to view evaluation metrics and feature importance.
 
-## Screenshots to capture for submission
-
-After running the application, save genuine screenshots of your own running project in the `screenshots/` folder:
-
-1. `dashboard.png` — Overview tab showing summary metrics and charts.
-2. `student_records.png` — Student records table and sidebar filters.
-3. `prediction.png` — Prediction form and a displayed prediction result.
-4. `model_evaluation.png` — MAE, RMSE, R², and feature importance.
-5. `terminal_run.png` — VS Code terminal showing the Streamlit command and successful startup (hide personal information if visible).
-6. `tests_passed.png` — terminal showing `python -m pytest -q` passing.
-
-Do not create fake screenshots or claim tests passed until you run them.
-
-## GitHub submission
-
-Create a new **public** repository named `Student-Performance-Tracker` (or use a private repository if your internship permits it). From the project root, run:
-
-```powershell
-git init
-git add .
-git commit -m "Build Student Performance Tracker ML dashboard"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/Student-Performance-Tracker.git
-git push -u origin main
-```
-
-Replace `YOUR-USERNAME` with your GitHub username. If the repository already has a remote, check it with `git remote -v` before adding another. Never upload passwords, tokens, API keys, or private student data.
-
-After pushing, open the repository on GitHub and confirm that `app.py`, `src/`, `data/`, `requirements.txt`, and `README.md` are present. Submit the repository URL through your internship's official submission process.
-
-## Submission checklist
-
-- [ ] Complete source code uploaded to GitHub.
-- [ ] Unique repository created for this project.
-- [ ] README includes intern ID, full name, duration in weeks, project name, and project scope.
-- [ ] Dataset file uploaded.
-- [ ] Requirements file uploaded.
-- [ ] Code comments and clear folder structure included.
-- [ ] Dashboard tested locally.
-- [ ] Automated tests run and results checked.
-- [ ] Genuine output screenshots saved in `screenshots/`.
-- [ ] Documentation and screenshots uploaded.
-- [ ] GitHub repository link submitted to the internship provider.
-
 ## Limitations and future improvements
 
 This is a demonstration project trained on synthetic data. It cannot establish real-world student outcomes or causal relationships. Potential improvements include validating against an approved real dataset, adding privacy controls and user authentication, comparing multiple algorithms, and tracking performance over time.
-
-## Academic integrity note
-
-Explain the data-generation process, cleaning steps, model features, evaluation metrics, and limitations in your own words when presenting the project. Fill in the internship-specific details before submitting.
