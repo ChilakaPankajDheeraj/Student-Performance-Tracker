@@ -75,7 +75,7 @@ The data is generated with a reproducible random seed and a little random variat
 ## Requirements
 
 - Windows 10/11
-- Python 3.10 or 3.11 recommended
+- Python 3.13 or later recommended
 - VS Code (recommended) or another Python editor
 - Internet access for the initial package installation
 
@@ -89,7 +89,7 @@ Open the project folder in VS Code. In the VS Code terminal, run these commands 
 py -3.11 -m venv .venv
 ```
 
-If the `py -3.11` launcher is unavailable, try:
+If the `py -3.13` launcher is unavailable, try:
 
 ```powershell
 python -m venv .venv
