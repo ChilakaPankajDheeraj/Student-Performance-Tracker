@@ -86,7 +86,7 @@ Open the project folder in VS Code. In the VS Code terminal, run these commands 
 ### 1. Create a virtual environment
 
 ```powershell
-py -3.11 -m venv .venv
+py -3.13 -m venv .venv
 ```
 
 If the `py -3.13` launcher is unavailable, try:
